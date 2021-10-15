@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col{
+    float: left;
+}
+
+.center{
+    text-align: center;
+}
+
+.list{
+    text-decoration: none;
+    color: black;
+
+}
+
+.list-non{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.btn-small{
+    padding: 5px 10px;
+}
+
+.btn-blu{
+    background-color: #0061ff;
+    color: white;
+    text-decoration: none;
+}
+
+/* HEADER */
+.menu-l{
+    margin-left: 50px;
+}
+
+nav li{
+    margin-left: 20px;
+}
+
+.menu-r{
+    margin-left: 340px;
+    margin-right: 50px;
+}
+
