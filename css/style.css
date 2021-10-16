@@ -35,6 +35,10 @@ img{
     padding: 8px 0;
 }
 
+.margin-b{
+    margin-bottom: 20px;
+}
+
 .center{
     text-align: center;
 }
@@ -73,6 +77,10 @@ img{
 
 .h2{
     font-size: 30px;
+}
+
+.font-s{
+    font-size: 13px;
 }
 
 /* HEADER */
@@ -145,9 +153,6 @@ nav *{
 .piano-dropbox{
     width: 60%;
     margin: auto;
-
-    height: 800px;
-    background-color: brown;
 }
 
 .piano-dropbox .title-h2{
@@ -178,8 +183,10 @@ nav *{
 .col-right, .col-center, .col-left{
     width: 30%;
     margin: 30px 0;
-    
-    height: 700px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    padding-bottom: 40px;
 }
 
 .col-center{
@@ -198,6 +205,27 @@ nav *{
 .piano-dropbox .month{
     margin-bottom: 40px;
 
+}
+
+.folder{
+    margin: 30px 0px;
+}
+
+.btn-col{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.col-right .col-margin{
+    margin-bottom: 90px;
+}
+
+.col-center .col-margin{
+    margin-bottom: 40px;
+}
+
+.col-left .col-margin{
+    margin-bottom: 40px;
 }
 
 
