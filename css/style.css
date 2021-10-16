@@ -43,6 +43,10 @@ img{
     text-align: center;
 }
 
+.underline{
+    text-decoration: underline;
+}
+
 .line{
     width: 20%;
     height: 1px;
@@ -73,6 +77,11 @@ img{
     background-color: #0061ff;
     color: white;
     text-decoration: none;
+}
+
+.btn{
+    text-decoration: none;
+    color: black;
 }
 
 .h2{
@@ -150,7 +159,7 @@ nav *{
 /* END JUMBO */
 
 /* PIANO DROPBOX */
-.piano-dropbox{
+.contain{
     width: 60%;
     margin: auto;
 }
@@ -226,14 +235,59 @@ nav *{
     margin-bottom: 40px;
 }
 
-.piano-dropbox a{
+.enterprise a{
     margin-top: 20px;
+}
+
+.enterprise h3{
+    margin: 20px 0px;
 }
 
 .piano-left{
     padding-left: 20px;
 }
-
-
-
 /* PIANO DROPBOX */
+
+/* PARTNER */
+.partner{
+    margin-top: 100px;
+}
+
+.partner-left{
+    width: 61%;
+    margin-right: 8%;
+}
+
+.partner-right{
+    width: 30%;
+}
+
+.partner .btn{
+    border: 1px solid black;
+    width: 51%;
+}
+
+.partner h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.partner p{
+    line-height: 20px;
+}
+/* END PARTNER */
+
+/* OPERAZIONI */
+.operazioni{
+    margin-top: 80px;
+}
+
+.col-f-right, .col-f-center, .col-f-left{
+    width: 30%;
+    margin-bottom: 60px;
+}
+
+.col-f-center{
+    margin: 0px 5%;
+}
+/* END OPERAZIONI */
