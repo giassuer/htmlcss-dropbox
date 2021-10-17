@@ -36,6 +36,12 @@ img{
     border-bottom: 1px solid #e9e9ea;
 }
 
+.domande{
+    border-top: 1px solid #e9e9ea;
+    border-bottom: 1px solid #e9e9ea;
+    padding: 15px 0px;
+}
+
 .padding{
     padding: 8px 0;
 }
@@ -61,7 +67,6 @@ img{
 .list{
     text-decoration: none;
     color: black;
-
 }
 
 .list-non{
@@ -76,7 +81,6 @@ img{
 .btn-large{
     padding: 5px 12px;
 }
-
 
 .btn-blu{
     background-color: #0061ff;
@@ -96,6 +100,7 @@ img{
 .font-s{
     font-size: 13px;
 }
+/* END COMMON */
 
 /* HEADER */
 
@@ -321,7 +326,9 @@ nav *{
 }
 
 .team-img{
-    padding: 50% 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
 }
 
 .cont-1{
@@ -329,34 +336,126 @@ nav *{
     border-top: 6px solid #d0e9cd;
     border-bottom: 6px solid #d0e9cd;
     border-right: 6px solid #d0e9cd;
+    background-image: url(../img/designit.svg);
 }
 
 .cont-2{
+    background-image: url(../img/university_of_florida.svg);
     background-color: #0093ce;
 }
 
 .cont-3{
     background-color: #61082b;
-    padding-top: 30%;
+    background-image: url(../img/arizona_state_university.svg);
 }
 
 .cont-4{
     background-color: #ff1c1c;
+    background-image: url(../img/topps.svg);
 }
 
 .cont-5{
     background-color: #d5001f;
+    background-image: url(../img/world_bicycle_relief.svg);
 }
 
 .cont-6{
     background-color: #0d2481;
+    background-image: url(../img/lonely_planet.svg);
 }
 
 .cont-7{
     background-color: #b4d0e7;
+    background-image: url(../img/hearst_corp.svg);
 }
 
 .cont-8{
     background-color: #ffd830;
+    background-image: url(../img/clear_channel.svg);
+}
+
+.col-3 p{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.team-business-bottom{
+    background-color: #b4d0e7;
+}
+
+.team-business-bottom h2{
+    color: #651133;
+}
+
+.team-business-bottom a{
+    background-color: white;
+}
+
+.col-btm-1{
+    margin: 100px 15%;
+    width: 30%;
+}
+
+.col-btm-2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 10%;
+    width: 20%;
 }
 /* END TEAM BUSINESS */
+
+/* DOMANDE */
+.qst-title{
+    margin-top: 70px ;
+    margin-bottom: 50px;
+}
+
+.qst{
+    width: 70%;
+}
+
+.arrow{
+    width: 30%;
+    text-align: right;
+    padding-right: 20px;
+}
+/* END DOMANDE */
+
+/* END MAIN */
+
+/* FOOTER */
+footer{
+    margin-top: 100px;
+    background-color: black;
+}
+
+.contain-foot{
+    margin-left: 10%;
+    margin-right: 15%;
+    padding-bottom: 120px;
+    padding-top: 100px;
+    color: white;
+}
+
+.contain-foot h4{
+    font-size: 20px;
+}
+
+.col-foot{
+    width: 20%;
+}
+
+.list-foot{
+    list-style-type: none;
+}
+
+.list-mrgn{
+    margin-bottom: 10px;
+}
+
+.foot-a{
+    text-decoration: none;
+    color: white;
+}
+
+/* END FOOTER */
