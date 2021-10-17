@@ -105,12 +105,26 @@ img{
 /* HEADER */
 
 /* NAV */
+nav{
+    height: 50px;
+    position: fixed;
+    background-color: white;
+    z-index: 2;
+    padding: 10px 0px;
+}
+
 .menu-l{
     margin-left: 35px;
 }
 
 nav li{
     margin-left: 20px;
+    height: 100%;
+}
+
+nav li :hover{
+    border-bottom: 3px solid black;
+
 }
 
 nav *{
